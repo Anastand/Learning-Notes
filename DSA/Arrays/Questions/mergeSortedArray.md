@@ -1,6 +1,6 @@
 # Merge Sorted Array - Revision Note
 
-## **Logic Recap:**
+## **Logic Recap :**
 - You have two sorted arrays, `nums1` and `nums2`. `nums1` has extra space at the end to fit all elements.
 - You need to merge all elements of `nums2` into `nums1`, keeping everything sorted and doing it IN-PLACE (no extra array allowed).
 - To avoid overwriting, work backwards from the end, filling from the last slot.
