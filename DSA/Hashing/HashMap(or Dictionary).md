@@ -1,4 +1,6 @@
-## **Hashmaps (Dictionaries) in Python: Full Guide**
+## **Hashmaps (Dictionaries): Full Guide**
+
+- key value pair
 
 ### **1. Creation**
 ```python
