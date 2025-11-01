@@ -109,6 +109,40 @@ d = {'x': [1,2,3], 'y': {'inner': 99}}
 ```
 
 ***
+### Q solved knowledge
+  - A hashmap (dict) is a mapping from keys to values with fast O(1) access time.
+  - Main operations:
+      - Create: d = {}
+      - Insert/Update: d[key] = value
+      - Access: d[key] (KeyError if not found), d.get(key, default) (safe)
+      - Check existence: if key in d:
+      - Delete: del d[key] or d.pop(key)
+      - Iterate: for k,v in d.items()
+  - Use dictionaries to:
+      - Count frequencies fast (frequency map)
+      - Track duplicates or presence (use set or dict)
+      - Group by category (e.g., anagrams)
+      - Map elements to indices (Two Sum)
+  - Interview patterns:
+      - Frequency counting: 
+          freq[c] = freq.get(c, 0) + 1
+      - Fast lookup: 
+          if target - n in d:
+              # do something
+      - Grouping:
+          group.setdefault(key, []).append(value)
+  - Hashmap-based problem examples:
+      1. Two Sum: Use dict for complement lookup
+      2. Contains Duplicate: Use set/dict for seen values
+      3. Valid Anagram: Create letter-frequency dicts for both strings and compare
+      4. Intersection: Use set/dict to find overlaps quickly
+  - Keys for correct usage:
+      - Always check membership before access (if k in d:)
+      - To increment, always use get: d[k] = d.get(k, 0) + 1
+      - For comparing content (anagrams): build frequency maps for each sequence
+
+  Always think: Am I mapping, counting, grouping, or doing fast lookup? 
+  Dictionaries and sets are your go-to tools for those tasks!
 
 ## **Advantages of Hashmaps**
 - **O(1) time** for insert, update, and retrieve.
