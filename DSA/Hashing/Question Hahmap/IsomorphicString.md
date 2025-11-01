@@ -1,4 +1,3 @@
-'''
 ### The Problem:
 - You need to check if you can "rename" each letter of string `s` consistently into letters of string `t`, **with no overlap or ambiguity** (one-to-one mapping in both directions).
 
@@ -29,7 +28,7 @@
 ### Intuition:
 - You aren’t just substituting characters—you’re enforcing *unique renaming* with strict rules.
 - If any letter tries to “change its assigned identity,” the pattern fails.
-'''
+```py
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         m1={}
@@ -46,5 +45,4 @@ class Solution:
         print ( m1 )
         print(" ")
         print ( m2 )
-
-
+```
