@@ -6,6 +6,6 @@
 
 Links -
 
-- [realtimeChatApp Notion Docs](https://internal-collar-34e.notion.site/29cbec9c024d80ce80e9df3056dce7e4?v=29cbec9c024d80938e82000c45d8063b&source=copy_link)
+- [realtimeChatApp Notion Docs](https://internal-collar-34e.notion.site/RealtimeChatApp-29dbec9c024d80058d51d1669991aecc)
 
 - 
